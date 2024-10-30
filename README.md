@@ -11,7 +11,7 @@ The `getServicePoints` function is designed to interact with the DHL Location Fi
 The function accepts four parameters:
 - **countryCode**: A string representing the ISO code of the country (e.g., 'GB' for Great Britain).
 - **city**: The name of the city where service points are sought (e.g., 'London').
-- **postalCode** (optional): A string specifying the postal code, which can help narrow down search results (e.g., '53113').
+- **postalCode** (optional): A string specifying the postal code, which can help narrow down search results (e.g., 'E1 6AN').
 - **radius** (optional): A numerical value indicating the search radius in meters. The default value is set to 5000 meters but can be modified by the user.
 
 ### API Interaction
@@ -34,9 +34,9 @@ Robust error handling is implemented to ensure that any issues encountered durin
 
 The function can be utilized in various scenarios. For example, a user may call the function as follows:
 ```javascript
-getServicePoints('GB', 'London', '53113').then(names => console.log(names));
+getServicePoints('GB', 'London', 'E1 6AN').then(names => console.log(names));
 ```
-This call retrieves all service points in London, United Kingdom, specifically around postal code 53113, within a radius of 5000 meters. The output will be a list of service point names, which can then be displayed to the user or used for further processing.
+This call retrieves all service points in London, United Kingdom, specifically around postal code E1 6AN, within a radius of 5000 meters. The output will be a list of service point names, which can then be displayed to the user or used for further processing.
 
 
 --- 
@@ -58,7 +58,7 @@ The `getServicePoints` function is designed to interact with the DHL Location Fi
 The function accepts four parameters:
 - **countryCode**: A string representing the ISO code of the country (e.g., 'GB' for Great Britain).
 - **city**: The name of the city where service points are sought (e.g., 'London').
-- **postalCode** (optional): A string specifying the postal code, which can help narrow down search results (e.g., '53113').
+- **postalCode** (optional): A string specifying the postal code, which can help narrow down search results (e.g., 'E1 6AN').
 - **radius** (optional): A numerical value indicating the search radius in meters. The default value is set to 5000 meters but can be modified by the user.
 
 ### API Interaction
@@ -81,7 +81,7 @@ Robust error handling is implemented to ensure that any issues encountered durin
 
 The function can be utilized in various scenarios. For example, a user may call the function as follows:
 ```javascript
-getServicePoints('GB', 'London', '53113').then(names => console.log(names));
+getServicePoints('GB', 'London', 'E1 6AN').then(names => console.log(names));
 ```
 This call retrieves all service points in London, United Kingdom, specifically around postal code 53113, within a radius of 5000 meters. The output will be a list of service point names, which can then be displayed to the user or used for further processing.
 
