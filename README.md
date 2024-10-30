@@ -1,9 +1,6 @@
 # DHLAPI
 Testing DHL API
 
-Certainly! Below is a 500-word document describing the functionality of the `getServicePoints` function and how it interacts with the DHL API.
-
----
 
 # Overview of the getServicePoints Function
 
